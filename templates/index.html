@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Background Removal</title>
+    <!-- Link to Bootstrap CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link to  custom CSS file -->
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body class="bg-primary">
+    <div class="container mt-5">
+        <h1 class="text-center">Background Removal Tool</h1>
+        <h3 class="text-center mb-4" > Created Using Python</h3>
+        <form id="uploadForm" class="upload-form">
+            <div class="card drop-zone" id="dropZone">
+                <div class="card-body text-center">
+                    <p class="card-text drop-text">Drag & Drop or Select Image</p>
+                    <input type="file" id="imageFile" name="imageFile" accept="image/*" required class="d-none">
+                    <label for="imageFile" class="btn btn-primary">Choose File</label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-success mt-3">Upload Image</button>
+        </form>
+        <div id="loadingMessage" class="loading-message mt-3" style="display: none;">Loading...</div>
+        <div id="outputContainer" class="output-container mt-4">
+            <div id="uploadedImageContainer" class="image-container"></div>
+            <div id="processedImageContainer" class="image-container"></div>
+        </div>
+    </div>
+    <!-- Scripts -->
+    <script src="../static/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.upload-form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.upload-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upload-button:hover {
+    background-color: #45a049;
+}
+
+/* Add custom file input style */
+.file-label {
+    display: inline-block;
+    position: relative;
+    padding: 10px 20px;
+    background-color: #257fef;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.file-label input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.file-label span {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.file-label:hover {
+    background-color: #044d52;
+}
+
+
+.loading-message {
+    display: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.output-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-container {
+    width: 45%;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 300px;
+}
+
+/* Style for the "Choose File" label */
+.file-label {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.file-label:hover {
+    background-color: #45a049;
+}
+
+/* Hide default file input */
+#imageFile {
+    display: none;
+}
+
+
+/* Styles for the drop zone */
+.drop-zone {
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.drop-text {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Additional styling for file input label and info */
+.file-label {
+    display: none;
+}
+
+
+
+
+
