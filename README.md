@@ -1,6 +1,7 @@
 # Background-Remover-Application
 
 This repository implements a simple web application that removes the background from uploaded images using the rembg library.
+![Background Remover](https://github.com/BK-KAVIYA/BackgroundRemover/blob/main/thum2.png)
 
 ## Features
 - Uploads an image file.
