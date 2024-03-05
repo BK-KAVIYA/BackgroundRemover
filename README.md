@@ -25,8 +25,9 @@ This repository implements a simple web application that removes the background 
    pip install flask rembg Pillow
 
 ## Usage
-   ```bash
-   python app.py
+
+      ```bash
+      python app.py
 
 1. Open http://127.0.0.1:5000 in your web browser.
 
@@ -34,5 +35,13 @@ This repository implements a simple web application that removes the background 
 
 3. Click the "Upload" button.
 
-4.he original and processed images will be displayed on the page.
+4. The original and processed images will be displayed on the page.
+
+## Contributing
+
+Feel free to contribute to this project by:
+
+-Reporting bugs or suggesting improvements through GitHub issues.
+-Forking the repository and submitting pull requests with your changes.
+
 
